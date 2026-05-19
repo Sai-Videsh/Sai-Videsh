@@ -1,5 +1,5 @@
 # About Me:
-I’m Sai Videsh, a undergraduate B.Tech CSE student, exploring Tech and Non-Tech in full-on BFS mode. Currently<br>building ARC - dashboard for air purification related hardware. and parallely learning AI tool stacks as<br>an AI Generalist, building personal brand on Social Media & creating some digital products on Gumroad store
+Full-stack developer with 3 shipped products, 3 internships, and freelance clients delivering conversion-focused landing pages. Exploring Agentic AI systems, MCP architectures, and LLM tooling; currently building a prompt routing tool that translates natural input into structured, model-aware prompts. Contributing in IITB open source program. CS @ IIITDM Kurnool. Certified via NPTEL, IBM, and industry simulations.
 
 
 ## Socials:
