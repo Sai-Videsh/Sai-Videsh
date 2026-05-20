@@ -1,8 +1,8 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 0 * * *"  # runs daily
-  workflow_dispatch:       # lets you trigger manually too
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   github-metrics:
@@ -15,8 +15,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Sai-Videsh
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, repositories
           plugin_languages: yes
           plugin_languages_limit: 6
+          plugin_languages_threshold: 2%
           plugin_streak: yes
+          repositories_forks: no
           output_action: commit
